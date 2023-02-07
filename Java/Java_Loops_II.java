@@ -10,12 +10,13 @@ class Java_Loops_II {
             int b = in.nextInt();
             int n = in.nextInt();
             int c = a;
-            // String Afficher = "";        //2nd methode
+            // String Afficher = ""; //2nd methode
             for (int j = 0; j < n; j++) {
                 c += (int) (Math.pow(2, j)) * b;
                 System.out.print(Integer.toString(c) + ' ');
                 /*
-                 * if (j != 0) {
+                 * if (j!=0)
+                 * {
                  * Afficher = Afficher + " " + c;
                  * } else {
                  * Afficher = Afficher+ c;
